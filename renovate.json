@@ -26,5 +26,8 @@
       ],
       "groupName": "Kotlin dependencies"
     }
+  ],
+  "baseBranches": [
+    "develop"
   ]
 }

@@ -17,14 +17,14 @@
     "ui/**",
     "integration/**"
   ],
+  "schedule": "before 4am on the first day of the month",
+  "minimumReleaseAge": "15",
   "packageRules": [
     {
       "matchFileNames": [
         "*"
       ],
-      "groupName": "Kotlin dependencies",
-      "schedule": "before 4am on the first day of the month",
-      "minimumReleaseAge": "15"
+      "groupName": "Kotlin dependencies"
     }
   ]
 }

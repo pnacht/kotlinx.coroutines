@@ -16,5 +16,13 @@
     "reactive/**",
     "ui/**",
     "integration/**"
+  ],
+  "packageRules": [
+    {
+      "matchFileNames": [
+        "*"
+      ],
+      "groupName": "Kotlin dependencies"
+    }
   ]
 }

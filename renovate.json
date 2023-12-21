@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "config:recommended"
   ],
   "ignorePaths": [
     "benchmarks/**",
@@ -22,7 +22,8 @@
       "matchFileNames": [
         "*"
       ],
-      "groupName": "Kotlin dependencies"
+      "groupName": "Kotlin dependencies",
+      "schedule": "before 4am on the first day of the month"
     }
   ]
 }
